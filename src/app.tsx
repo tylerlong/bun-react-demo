@@ -1,5 +1,6 @@
 import React from "react";
 import { auto } from "manate/react";
+import { Button } from "antd";
 
 import store from "./store";
 
@@ -8,7 +9,9 @@ const App: React.FC = auto(() => {
   return (
     <div>
       <h1>{store.counter}</h1>
-      <button onClick={() => (store.counter += 1)}>Increment</button>
+      <Button onClick={() => (store.counter += 1)} type="primary">
+        Increment
+      </Button>
     </div>
   );
 });
