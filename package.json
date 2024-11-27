@@ -6,6 +6,7 @@
     "css": "sass src/index.scss public/index.css --watch"
   },
   "devDependencies": {
+    "@types/bun": "^1.1.14",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "antd": "^5.22.2",
