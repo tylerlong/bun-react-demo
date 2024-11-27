@@ -1,7 +1,7 @@
 {
   "scripts": {
     "s": "bun serve public",
-    "b": "cp src/index.html public/ && bun build src/index.tsx --outdir=public --sourcemap=linked",
+    "b": "rm -rf public && mkdir public && cp src/index.html public/ && bun build src/index.tsx --outdir=public --sourcemap=linked --asset-naming=[name].[ext]",
     "w": "bun b --watch",
     "css": "sass src/index.scss public/index.css --watch"
   },
