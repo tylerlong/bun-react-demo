@@ -1,7 +1,8 @@
 {
   "scripts": {
     "s": "bun serve public",
-    "b": "bun build src/index.tsx --outdir=public --sourcemap=linked"
+    "b": "bun build src/index.tsx --outdir=public --sourcemap=linked",
+    "w": "bun b --watch"
   },
   "devDependencies": {
     "react": "^18.3.1",
