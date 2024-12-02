@@ -3,14 +3,9 @@ import { compile as sassCompile } from "sass";
 
 const sassPlugin: BunPlugin = {
   name: "sass-loader",
-  setup(build) {
-    build.onLoad({ filter: /\.(scss)$/ }, async (args) => {
-      const result = sassCompile(args.path);
-      return {
-        loader: "css",
-        contents: result.css,
-      };
-    });
+  setup() {
+    const result = sassCompile("./src/index.scss");
+    Bun.write("./public/index.css", result.css);
   },
 };
 
