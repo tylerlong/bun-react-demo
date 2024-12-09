@@ -1,15 +1,15 @@
 ## Instructions
 
-### Compile TS and assets
+### bundle
+
+```
+bun b
+```
+
+### bundle and watch
 
 ```
 bun w
-```
-
-### Compile scss
-
-```
-bun css
 ```
 
 ### Start a HTTP Server
