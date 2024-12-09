@@ -1,3 +1,7 @@
+# packle react demo
+
+This is a demo to bundle a react app using [packle](https://www.npmjs.com/package/packle).
+
 ## Instructions
 
 ### bundle
