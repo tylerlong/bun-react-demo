@@ -1,9 +1,4 @@
 {
-  "scripts": {
-    "s": "bun serve public",
-    "b": "bun packle",
-    "w": "bun b -w"
-  },
   "devDependencies": {
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",

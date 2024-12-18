@@ -7,19 +7,19 @@ This is a demo to bundle a react app using [packle](https://www.npmjs.com/packag
 ### bundle
 
 ```
-bun b
+bun packle
 ```
 
 ### bundle and watch
 
 ```
-bun w
+bun packle -w
 ```
 
 ### Start a HTTP Server
 
 ```
-bun s
+bun serve public
 ```
 
 ### Check the website
