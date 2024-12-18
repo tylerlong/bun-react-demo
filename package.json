@@ -1,10 +1,10 @@
 {
   "devDependencies": {
     "@types/react": "^19.0.1",
-    "@types/react-dom": "^19.0.1",
-    "antd": "^5.22.3",
+    "@types/react-dom": "^19.0.2",
+    "antd": "^5.22.5",
     "manate": "^2.0.0-beta.3",
-    "packle": "^0.1.7",
+    "packle": "^0.1.9",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   }
